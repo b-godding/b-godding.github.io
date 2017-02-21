@@ -1,0 +1,32 @@
+.navbar-custom {
+  background-color: #74279e;
+  font-family: impact, Arial;
+}
+
+.navbar-custom li a {
+  color: white;
+}
+
+.nav > li > a:hover {
+  background-color: #611c87;
+  color: #ededed;
+}
+.nav > li > a:visited {
+  background-color: #611c87;
+  color: #fff;
+}
+
+.navbar-brand{
+  color: white;
+  font-size: 26px;
+  border: solid 3px #fff;
+  margin: 1px;
+  border-radius: 10px;
+}
+
+.navbar-brand:hover {
+  color: #98939b;
+}
+.navbar-brand:visited {
+  color: #ededed;
+}
