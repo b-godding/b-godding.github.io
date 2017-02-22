@@ -6,7 +6,7 @@
 
 .navbar-default .navbar-brand {
   color: #FFFFFF;
-  font-family: 'Anton', sans-serif;
+  font-family: georgia, sans-serif;
   border: solid #FFF 2px;
   border-radius: 10px;
   font-size: 26px;
@@ -40,8 +40,9 @@
 }
 
 .navbar-default .nav > li > a{
-  font-family: 'Anton', sans-serif;
+  font-family: georgia, sans-serif;
   color: #FFF;
+  font-weight: bold;
   }
 
 .navbar-default .nav > li > a:hover {
