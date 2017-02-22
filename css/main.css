@@ -6,7 +6,7 @@
 
 .navbar-default .navbar-brand {
   color: #FFFFFF;
-  font-family: impact, arial;
+  font-family: 'Anton', sans-serif;
   border: solid #FFF 2px;
   border-radius: 10px;
   font-size: 26px;
@@ -40,7 +40,7 @@
 }
 
 .navbar-default .nav > li > a{
-  font-family: impact;
+  font-family: 'Anton', sans-serif;
   color: #FFF;
   }
 
