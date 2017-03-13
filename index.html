@@ -10,6 +10,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,12 +49,146 @@
 
 
 	<body>
+    <!-- Carousel for the banner of the site -->
+    <div class="container">
+    <div id="myCarousel" class="carousel slide">
+        <!-- The three circle indicators that allow you to change which slide you are viewing -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to = "0" class = "active"></li>
+        <li data-target="#myCarousel" data-slide-to = "1"></li>
+        <li data-target="#myCarousel" data-slide-to = "2"></li>
+      </ol>
+        <!-- The items in the carousel which you can switch between -->
+      <div class="carousel-inner">
+
+        <div class="item active">
+          <img src="http://placehold.it/1920x700" alt="Crossing" class="img-responsive">
+          <div class="carousel-caption">
+            <p>Random placholder text</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="http://placehold.it/1920x700" alt="Cabin" class="img-responsive">
+          <div class="carousel-caption">
+            <p>Random placholder text</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="http://placehold.it/1920x700" alt="City" class="img-responsive">
+          <div class="carousel-caption">
+            <p>Random placholder text</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- Carousel arrow sliders to allow user to change by clicking arrows -->
+        <a class="carousel-control left" href="#myCarousel" data-slide = "prev">
+          <span class="icon-prev"></span>
+        </a>
+
+        <a class="carousel-control right " href="#myCarousel" data-slide = "next">
+          <span class="icon-next"></span>
+        </a>
+
+    </div>
+  </div>
+
+  <!-- About me header section-->
+  <section>
+    <div class="text-center">
+      <div class="container bg-purple">
+        <h1 class="white-georgia underlined_text">About Me</h1>
+        <div class="row">
+          <div class="col-xs-2 push-down">
+            <span class=" fa-stack fa-icons">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-code fa-stack-1x"></i>
+          </div>
+          <div class="col-xs-2 push-down">
+            <span class=" fa-stack fa-icons">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-desktop fa-stack-1x"></i>
+            </span>
+          </div>
+          <div class="col-xs-4">
+            <img class="headshot img-resize center-block" src="http://placehold.it/250x250" alt="Photo Of Billy Godding">
+          </div>
+          <div class="col-xs-2 push-down">
+            <span class=" fa-stack fa-icons">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-mobile fa-stack-1x"></i>
+          </div>
+          <div class="col-xs-2 push-down">
+            <span class=" fa-stack fa-icons">
+              <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+              <i class="fa fa-pencil fa-stack-1x"></i>
+          </div>
+        </div>
+            <h4 class="text-center white-georgia sub-header">Self-Taught Web Designer and Developer</h4>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About me main section -->
+    <section>
+      <div class="container bg-white">
+        <div class="text-center">
+          <h1 class="orange-text underlined_text_orange">About My Life</h1>
+            <p class="grey-text">I am a 17 year old boy who was born and raised in a small town in Berkshire called Bracknell. I enjoy gaming and socialising with my friends.
+               I gained interest in Web Design and Development at the age of 14. Due to my ill health when I was 16 years old I decided to learn
+                more about Web Development and hope to make a hobby into a full time job. I live a pretty normal life as most teenagers do.
+                 But due to being diagnosed with ME during early 2016 I was unable to participate in school as it would only make my health worse. Although I did not go to
+                  school I was still able to get my GSCE’s in core subjects.</p>
+
+          <h1 class="orange-text underlined_text_orange">My Education</h1>
+          <p class="grey-text">Though I may not have many formal qualifications due to illness. I do care about my education
+           and I believe that is very important to have an education, not just in anything, something you
+            enjoy or care about. For me, I enjoy technology so therefore I looked at things that I could
+             do without the help of teachers and I taught myself a few things about Web development.
+              When I was confident enough, I made my first sight. Although I was not formally taught Web
+               Development, I am still able to develop a website and i believe that this is a good skill
+                for me to have learned. </p>
+        </div>
+
+        <div class="text-center">
+          <h3 class="underlined_text_orange orange-text">About My Education</h3>
+            <p class="grey-text">I went to school at Garth Hill College in Bracknell. While I was there I studied Business
+              , Physical Education (P.e), IT, History, English, Maths and Science. Due to my Ill health in my last
+               year at school I was only able to take my three core subjects, English, Maths and Science, of which I passed all three. Due to my school letting us take a GCSE a year early I was able to get a GCSE in IT as well. I was never the smartest at school but I would always put 100% effort in and try my best even if I did not understand I would always try before asking for help.</p>
+
+               <h3 class="orange-text underlined_text_orange">Formal Qualifications</h3>
+
+                <ul class="centered-list">
+                 <li>Maths  </li>
+                 <li>English</li>
+                 <li>Science</li>
+                 <li>IT</li>
+               </ul>
+        </div>
+
+    </section>
+
+  <!-- Gallery Heading area -->
+<!--
+    <section>
+      <div class="row">
+        <div class="col-xs-8">
+          <h1 class="white-georgia under">Gallery</h1>
+        </div>
+      </div>
+    </section>
+
+-->
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/main.js"></script>
   </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </html>
