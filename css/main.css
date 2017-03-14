@@ -177,3 +177,7 @@ padding:20px;
   min-width: 50%;
   min-height: 50%;
 }
+
+.bot-spacer {
+  padding-bottom: 15px;
+}
