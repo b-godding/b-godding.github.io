@@ -96,7 +96,7 @@ body {
 }
 
 .headshot {
-  padding: 15px auto;
+  padding: 15px 15px 0px 15px;
   border-radius: 50%;
 }
 
@@ -180,4 +180,22 @@ padding:20px;
 
 .bot-spacer {
   padding-bottom: 15px;
+}
+
+.title-padder {
+  padding: 20px 0px;
+}
+.my_panel{
+  margin-top: 50px;
+  border: solid 2px #000;
+}
+.panel-body{
+  background-color: rgb(154, 154, 154);
+}
+.panel-body > img{
+  border: 1px solid #FFF
+}
+
+.panel-footer{
+  background-color: #74279e;
 }
