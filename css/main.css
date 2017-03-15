@@ -142,11 +142,11 @@ body {
 }
 
 .centered-list{
-margin: auto;
 font-size: 16px;
 font-family: georgia, sans-serif;
 color: #b3b3b3;
 list-style-type: none;
+padding-right: 40px;
 }
 
 ul.centered-list > li {
