@@ -199,3 +199,46 @@ padding:20px;
 .panel-footer{
   background-color: #74279e;
 }
+.padder-15-left {
+  padding-left: 15%;
+}
+
+p#p-a > a {
+  color:  #f4a600;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+p#p-a > a:hover {
+  color:  #f4a600;
+  text-decoration: none;
+font-weight: bold;
+}
+
+p#p-a2 > a {
+  color:  #f4a600;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+p#p-a2 > a:hover {
+  color:  #f4a600;
+  text-decoration: none;
+font-weight: bold;
+}
+
+.foot{
+  background-color: #000;
+  font-family: Georgia, sans-serif;
+  color:#FFF;
+}
+
+.gradient{
+background: #8a3ab9;
+background: -webkit-linear-gradient(right top,#8a3ab9, #bc2a8d, #cd486b, #e95950, #fbad50, #fccc63);
+background: -o-linear-gradient(right top,#8a3ab9, #bc2a8d, #cd486b, #e95950, #fbad50, #fccc63);
+background: -moz-linear-gradient(right top,#8a3ab9, #bc2a8d, #cd486b, #e95950, #fbad50, #fccc63);
+  background: linear-gradient(right top,#8a3ab9, #bc2a8d, #cd486b, #e95950, #fbad50, #fccc63);
+  border-radius: 20%;
+font-size: 14px;
+}
