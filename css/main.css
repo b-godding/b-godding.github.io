@@ -81,10 +81,14 @@ body {
   border-radius: 100px;
   padding-bottom: 35px;
 }
-.item {
-  margin-left: auto;
-  margin-right: auto;
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
+
+.item:hover > img{
+  opacity: 0.2;
+}
+
 
 .bg-purple{
   background-color: #74279e;
@@ -98,6 +102,8 @@ body {
 .headshot {
   padding: 15px 15px 0px 15px;
   border-radius: 50%;
+  height: 250px;
+  width: 250px;
 }
 
 
