@@ -248,3 +248,12 @@ background: -moz-linear-gradient(right top,#8a3ab9, #bc2a8d, #cd486b, #e95950, #
   border-radius: 20%;
 font-size: 14px;
 }
+
+ul.footer-nav > li > a{
+  font-family: Georgia , sans-serif;
+  color: #FFF;
+}
+
+.footer-nav{
+  list-style-type: none;
+}
