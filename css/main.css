@@ -22,7 +22,7 @@ body {
 
 .navbar-default .navbar-brand:hover {
   color : #ededed;
-  background-color: #4b1c7a;
+  background-color: rgb(80,13,99);
 }
 
 .navbar-default .navbar-brand:visited {
@@ -38,12 +38,12 @@ body {
 }
 
 .navbar-default .navbar-toggle:hover {
-  background-color: #4b1c7a;
+  background-color: rgb(80,13,99);
   color : #ededed;
 }
 
 .navbar-default .navbar-toggle:focus {
-  background-color: #4b1c7a;
+  background-color: rgb(80,13,99);
   color : #ededed;
 }
 
@@ -54,7 +54,7 @@ body {
   }
 
 .navbar-default .nav > li > a:hover {
-    background-color: #4b1c7a;
+    background-color: rgb(80,13,99);
     color: #ededed;
   }
 
@@ -256,4 +256,22 @@ ul.footer-nav > li > a{
 
 .footer-nav{
   list-style-type: none;
+}
+
+.navbar-default .nav > li.active > a{
+  background-color: rgb(80,13,99);
+}
+
+/*.navbar-default .nav > li.active > a:focus{
+  background-color: rgb(143, 36, 135);
+}*/
+
+.navbar-default .nav > li.active > a:hover{
+  background-color: rgb(80,13,99);
+  color:#fff;
+}
+
+.navbar-default .nav > li.active > a:visited{
+  background-color: rgb(80,13,99);
+  color:#fff;
 }
