@@ -1,10 +1,10 @@
 $(document).ready(function(){
+  $('body').scrollspy({target: ".navbar", offset: 50});
+
   // Add smooth scrolling on all links inside the navbar
   $("#myNavbar a").on('click', function(event) {
-
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
-
       // Prevent default anchor click behavior
       event.preventDefault();
 
@@ -17,21 +17,23 @@ $(document).ready(function(){
         scrollTop: $(hash).offset().top
       }, 800, function(){
 
-      // Add hash (#) to URL when done scrolling (default click behavior)
+        // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-
-    } // End if
-
+    }  // End if
   });
 
-$("#instagram, #linkedin, #twitter").hover(function() {
-  /* Stuff to do when the mouse enters the element */
-  $(this).addClass('enlarge infinite-spinning');
-}, function() {
-  /* Stuff to do when the mouse leaves the element */
-  $(this).removeClass('enlarge');
-});
+  $("#instagram, #linkedin, #twitter").hover(function() {
+    $(this).addClass('enlarge')
+    /* Stuff to do when the mouse enters the element */
+  }, function() {
+    /* Stuff to do when the mouse leaves the element */
+    $(this).removeClass('enlarge')
+  });
+
+
+
+
 
 
 });
