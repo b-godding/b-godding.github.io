@@ -25,7 +25,13 @@ $(document).ready(function(){
 
   });
 
-
+$("#instagram, #linkedin, #twitter").hover(function() {
+  /* Stuff to do when the mouse enters the element */
+  $(this).addClass('enlarge infinite-spinning');
+}, function() {
+  /* Stuff to do when the mouse leaves the element */
+  $(this).removeClass('enlarge');
+});
 
 
 });

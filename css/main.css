@@ -275,3 +275,16 @@ ul.footer-nav > li > a{
   background-color: rgb(80,13,99);
   color:#fff;
 }
+
+#About, #Gallery{
+  padding-top: 30px;
+}
+
+/* My attempt at CSS3 animations*/
+
+.enlarge{
+-webkit-transform: scale(2);
+-ms-transform: scale(2);
+transform: scale(2);
+z-index: 1;
+}

@@ -13,6 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <script src="js/bootstrap.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -50,7 +51,7 @@
 	</header>
 
 
-	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<body data-spy="scroll" data-target=".navbar" data-offset="50px">
     <!-- Carousel for the banner of the site -->
     <div class="container">
     <div id="myCarousel" class="carousel slide">
@@ -105,6 +106,7 @@
         <div class="row">
           <img class="headshot img-responsive center-block" src="img/headshot.jpg" alt="Photo Of Billy Godding" width="250px"height="250px">
         </div>
+        <h3 class="white-georgia animated shake">Billy Godding</h3>
         <div class="container bot-spacer">
            <div class="row">
              <div class="col-xs-2">
@@ -184,9 +186,9 @@
 
   <!-- Gallery Heading area -->
     <section>
-      <div class="container" id="Gallery">
+      <div class="container">
        <div class="row">
-        <div class="text-center bg-purple title-padder">
+        <div class="text-center bg-purple title-padder"id="Gallery">
           <h1 class="white-georgia underlined_text">Gallery</h1>
         </div>
       </div>
@@ -298,15 +300,15 @@
     <div class="foot container bot-spacer" id="Contact">
       <div class="row">
         <div class="col-xs-4">
-          <h4>Stay Connected:</h4>
+          <h4 >Stay Connected:</h4>
           <a href="https://twitter.com/godding_b" target="_blank">
-            <span class="fa-stack">
-              <i class="fa fa-stack-2x fa-circle" style="color:#4099FF;"></i>
+            <span class="fa-stack" id="twitter">
+              <i class="fa fa-stack-2x fa-square" style="color:#4099FF;"></i>
               <i class="fa fa-stack-1x fa-twitter" style="color:#FFF";></i>
             </span>
           </a>
           <a href="https://www.linkedin.com/in/billy-godding-24077b133/" target="_blank">
-            <span class="fa-stack">
+            <span class="fa-stack" id="linkedin">
               <i class="fa fa-stack-2x fa-square" style="color:#0077B5;"></i>
               <i class="fa fa-stack-1x fa-linkedin" style="color:#FFF;"></i>
             </span>
