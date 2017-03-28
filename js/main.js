@@ -24,16 +24,12 @@ $(document).ready(function(){
   });
 
   $("#instagram, #linkedin, #twitter").hover(function() {
-    $(this).addClass('enlarge')
+    $(this).addClass('enlarge animated bounce');
     /* Stuff to do when the mouse enters the element */
   }, function() {
     /* Stuff to do when the mouse leaves the element */
-    $(this).removeClass('enlarge')
+    $(this).removeClass('enlarge animated bounce');
   });
-
-
-
-
 
 
 });
